@@ -46,5 +46,10 @@ CREATE VIEW player_stats_percent AS
 SELECT *,
        ROUND(100.0 * wins / (wins + losses), 2) AS win_percent
 FROM player_stats;"
+
+
+
 4. Change the password of mysql to your password
-5. Run the docker container
+5. Create your cloudflare tunnel 
+6. Change the domain name
+7. Run the docker container
