@@ -1,0 +1,7 @@
+tunnel: your-tunnel-id
+credentials-file: /root/.cloudflared/credentials.json
+
+ingress:
+  - hostname: bad.neillabs.tech
+    service: http://streamlit:8501
+  - service: http_status:404
