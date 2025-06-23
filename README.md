@@ -13,7 +13,7 @@ Created a Docker container that can log matches between 2 teams playing badminto
    "CREATE DATABASE badminton_db;
 USE badminton_db;
 
-select * from teams;
+
 
 CREATE TABLE matches (
     match_id INT AUTO_INCREMENT PRIMARY KEY,
